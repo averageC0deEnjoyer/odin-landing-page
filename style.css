@@ -1,0 +1,116 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.menu {
+    padding: 15px;
+}
+ 
+.container-two {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: center;
+    color: white;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-five {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header { 
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+}
+
+.image-one {
+    max-width: 400px;
+    min-width: 300px;
+    max-height: 250px;
+}
+
+.container-combine {
+    background-color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.container-info {
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.website.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.website {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.text {
+    text-align: center;
+}
+
+.container-three {
+    margin-bottom: 25px;
+}
