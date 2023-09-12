@@ -25,8 +25,7 @@ body {
  
 .container-two {
     display: flex;
-    margin-left: 400px;
-    margin-right: 400px;
+    align-items: center;
     justify-content: center;
     color: white;
     gap: 50px;
@@ -48,14 +47,34 @@ body {
 
 .container-four {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 25px;
+    margin-bottom: 25px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+.background-container {
+    background-color: #E5E7EB;
+
+}
+
+.background-container-two {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-
 .container-five {
+    width: 500px;
+    background-color: #3882F6;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-bottom: 20px;
 }
 
 .header { 
@@ -113,4 +132,33 @@ button {
 
 .container-three {
     margin-bottom: 25px;
+}
+
+.description {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-one {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    max-width: 700px;
+}
+
+.container-five .sign-up {
+    border: 2px solid white;
+}
+
+.fast {
+    width: 300px;
+}
+
+.footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    
 }
